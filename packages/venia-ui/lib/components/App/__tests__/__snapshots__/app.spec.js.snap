@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with renderErrors 1`] = `
+<HeadProvider>
+  <Title>
+    Venia
+  </Title>
+  <Main
+    isMasked={true}
+  />
+  <Classify(Mask)
+    isActive={true}
+  />
+  <ToastContainer />
+</HeadProvider>
+`;
+
+exports[`renders with unhandledErrors 1`] = `
+<HeadProvider>
+  <Title>
+    Venia
+  </Title>
+  <Main
+    isMasked={false}
+  >
+    <Routes />
+  </Main>
+  <Classify(Mask)
+    dismiss={[Function]}
+    isActive={false}
+  />
+  <Navigation />
+  <ToastContainer />
+</HeadProvider>
+`;
